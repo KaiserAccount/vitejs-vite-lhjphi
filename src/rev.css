@@ -1,0 +1,252 @@
+
+
+
+.zip-code-input {
+  width: 100%; /* Take full width of the parent */
+  padding: 0.75rem; /* Slightly larger padding */
+  font-size: 1.6rem;
+  border: 1px solid #007bff; /* On-brand border color */
+  border-radius: 4px;
+  color: #333;
+  ::placeholder {
+    color: red; /* Change the color to desired value */
+  }
+
+
+.zip-code-input {
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 2rem; */
+  /* padding: 1rem; */
+  border: 1px solid #007bff; /* Adding border to form */
+  /* border-radius: 8px; */
+  /*  background-color: #f0f8ff;  Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  /* width: 100%; */
+
+  /* padding: 0.75rem 1.5rem; Larger padding */
+  font-size: 1.6rem;
+  /* background-color: #007bff; */
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 32%;
+}
+
+.zip-code-label {
+  background-color: #fff;
+  position: absolute;
+  text-align: left;
+  margin-left: 12px;
+  padding: 0 5px; /* Add some padding for spacing */
+  top: 10px; /* Adjust this value to control the overhang */
+  left: 10px; /* Adjust this value to control the horizontal position */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+/* .zip-code-label{
+  background-color: #ffff00;
+  position: relative;
+  text-align: left;
+  margin-left: 12px;
+} */
+
+
+/* Container styling */
+.zip-code-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+/* Initial label styling */
+.zip-code-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #000; /* Initial color */
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input styling */
+.zip-code-input {
+  padding: 10px 5px 10px 5px; /* Adjust padding to ensure label is within border */
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+/* Raise the label and change its color on focus or when input is not empty */
+.zip-code-input:focus + .zip-code-label,
+.zip-code-input:not(:placeholder-shown) + .zip-code-label {
+  top: -10px; /* Raise the label slightly */
+  font-size: 12px; /* Optional: reduce font size */
+  color: #ff5733; /* Change to brand-like color */
+}
+
+
+.cardiologist-near-you {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.doctor-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.details {
+  flex: 1;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.practice {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.distance {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.staff-pick {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.services {
+  margin-bottom: 1rem;
+}
+
+.services h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.insurance {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.yes {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.cta-container {
+  margin-top: 1rem;
+}
+
+.book-now {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #0056b3;
+}
+
+.guarantee {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.alternative {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.alternative .avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.alternative .name {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.alternative .practice {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 2rem;
+}

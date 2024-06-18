@@ -1,0 +1,126 @@
+.enter-zip-code {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666;
+}
+.zip-code-form {
+  display: flex;
+  flex-direction: column; /* Stack label, input, and button vertically */
+  align-items: stretch; /* Ensure child elements take full width */
+  margin-bottom: 3rem;
+
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+.zip-code-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem; /* Space between label and input */
+  color: #007bff; /* On-brand color */
+}
+
+.zip-code-input {
+  width: 100%; /* Take full width of the parent */
+  padding: 1.3rem; /* Slightly larger padding */
+  font-size: 1rem;
+  border: 1px solid #007bff; /* On-brand border color */
+  border-radius: 4px;
+  margin-bottom: 1rem; /* Space between input and button */
+  outline: none;
+  font-size: 25px;
+  transition: box-shadow 0.3s ease; /* Transition for focus effect */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.zip-code-input:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+.show-button {
+  padding: 0.9rem 1.6rem;
+  font-size: 2.4rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+.hidden {
+  display: none;
+}
+.show-button:hover {
+  background-color: #0056b3;
+}
+.show-button_ {
+  padding: 0.75rem 1.5rem; /* Larger padding */
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  width: 100%; /* Take full width of the parent */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.show-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.show-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+/* GPT */
+
+/* ellipse */
+
+/* 
+.zip-code-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.zip-code- input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.show-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.footer {
+  font-size: 0.8rem;
+  color: #666;
+}

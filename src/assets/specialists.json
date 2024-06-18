@@ -1,0 +1,31 @@
+{
+  "cardiologist": {
+    "headlines": "Cardiologist near you",
+    "description": "Heart Specialists",
+    "services_info": "Our cardiologists offer a range of services including screenings, heart endoscopy, and congestive heart disease prevention.",
+    "subtitle": "*Cardiac imaging, Interventional cardiologists and Heart failure specialists",
+    "headline_1": "Enter Zip Code find a Cardiologist near you."
+  },
+
+  "dermatologist": {
+    "headlines": "Dermatologist near you",
+    "description": "Skin Specialists",
+    "services_info": "Our dermatologists offer a range of services including skin cancer screenings, acne treatment, and eczema management.",
+    "subtitle": "*Cosmetic dermatology, Pediatric dermatology, and Dermatopathology",
+    "headline_1": "Enter Zip Code to find a Dermatologist near you."
+  },
+  "gastroenterologist": {
+    "headlines": "Gastroenterologist near you",
+    "description": "Digestive Health Specialists",
+    "services_info": "Our gastroenterologists offer a range of services including colonoscopy, endoscopy, and treatment for irritable bowel syndrome.",
+    "subtitle": "*Hepatology, Inflammatory bowel disease specialists, and Pediatric gastroenterology",
+    "headline_1": "Enter Zip Code to find a Gastroenterologist near you."
+  },
+  "gynecologist": {
+    "headlines": "Gynecologist near you",
+    "description": "Women's Health Specialists",
+    "services_info": "Thank you for saving this Brandyn!",
+    "headline_1": "Enter Zip Code to find a Gastroenterologist near you."
+
+  }
+}
