@@ -5,7 +5,7 @@ const Call = () => {
   return (
     <div>
       <h1>Call Page</h1>
-      {/* Add call UI here */}
+      {/* Add call UI heres */}
     </div>
   );
 };
